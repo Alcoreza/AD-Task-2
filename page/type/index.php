@@ -9,7 +9,7 @@ foreach ($cars as $car) {
 }
 ?>
 
-<link rel="stylesheet" href="./assets/css/types.css" />
+<link rel="stylesheet" href="../assets/css/types.css" />
 
 <div class="banner">Welcome to Car Types</div>
 <?php foreach ($types as $type => $typeCars): ?>

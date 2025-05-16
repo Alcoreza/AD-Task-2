@@ -1,12 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 header,
 footer {
-  background-color: #333;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -14,8 +14,11 @@ footer {
 
 nav a {
   color: white;
-  margin: 0 10px;
+  margin: 0;
   text-decoration: none;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .banner {
@@ -46,4 +49,45 @@ nav a {
   height: 200px;
   object-fit: cover;
   border-radius: 8px;
+}
+
+.banner-image {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/landingpagebg.jpg"); /* adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.banner-image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  z-index: 1;
+}
+
+.banner-image .banner-text {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
 }

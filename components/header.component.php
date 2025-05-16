@@ -10,7 +10,6 @@
 
 <body>
     <header>
-        <h1>CarHub</h1>
         <nav>
             <a href="../../index.php">Home</a>
             <a href="../../page/brands/index.php">Brands</a>

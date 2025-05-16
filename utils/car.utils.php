@@ -1,4 +1,16 @@
 <?php
+
+function renderInfoSection($title, $content)
+{
+    $class = empty($title) ? "info-section white" : "info-section";
+    echo "<div class='{$class}'>";
+    if (!empty($title)) {
+        echo "<h2>{$title}</h2>";
+    }
+    echo "<p>{$content}</p>";
+    echo "</div>";
+}
+
 function getCars()
 {
     return [

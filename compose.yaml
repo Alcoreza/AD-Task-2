@@ -4,8 +4,6 @@ services:
       context: .
     ports:
       - 8000:80
-    volumes:
-      - .:/app
     develop:
       watch:
         - path: ./

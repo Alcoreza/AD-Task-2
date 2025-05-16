@@ -1,0 +1,16 @@
+{
+    "name": "elmerdaniel/ad-task-2",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Elmerdaniel\\AdTask2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alcoreza",
+            "email": "202310642@fit.edu.ph"
+        }
+    ],
+    "require": {}
+}

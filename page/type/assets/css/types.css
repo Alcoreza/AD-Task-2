@@ -56,9 +56,9 @@
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-size: 1.8rem;
-  font-weight: 500;
   line-height: 1.5;
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .type-block {

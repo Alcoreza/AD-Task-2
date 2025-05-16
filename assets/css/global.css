@@ -16,11 +16,26 @@ footer {
 
 nav a {
   color: white;
-  margin: 0;
+  margin: 0 6rem 1rem 6rem;
   text-decoration: none;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: relative;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
 
 .info-section {
@@ -85,7 +100,7 @@ nav a {
   margin: 0.5rem auto 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   position: relative;
   display: block;
   width: fit-content;

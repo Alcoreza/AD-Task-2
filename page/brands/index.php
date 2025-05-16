@@ -1,6 +1,6 @@
 <?php
 include '../../components/header.component.php';
-include '../../utils/car.utils.php';
+include '../../utils/Car.util.php';
 $cars = getCars();
 
 $brands = [];

@@ -9,32 +9,21 @@
 
 <body>
     <?php
-    include "components/header.component.php";
+    include './components/header.component.php';
+    include './utils/car.utils.php';
+    include './handlers/cars.handler.php';
     ?>
 
-    <div class="welcome-banner">
-        <h1>Welcome to CarHub</h1>
-        <p>Your Gateway to the world of automobile</p>
+    <div class="banner">Welcome to AD-CarSite - Explore Our Cars</div>
+    <div class="car-list">
+        <?php
+        foreach ($cars as $car) {
+            include './components/templates/car-card.component.php';
+        }
+        ?>
     </div>
 
-    <div class="card">
-        <h2>Featured Brands</h2>
-        <div class="brand-list">
-            <?php
-            $brands = ['Audi', 'BMW', 'Toyota', 'Mercedes-Benz', ' Honda', 'Ford'];
-            foreach ($brands as $brand) {
-                echo "<div class='brand-item'>
-                <img src='assets/img/" . strtolower(str_replace(' ', '', $brand)) . ".jpg' alt='$brand'/>
-                <p>$brand</p>
-                </div>";
-            }
-            ?>
-        </div>
-    </div>
-
-    <?php
-    include 'components/footer.component.php';
-    ?>
+    <?php include './components/footer.component.php'; ?>
 </body>
 
 </html>

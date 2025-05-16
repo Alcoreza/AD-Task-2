@@ -1,5 +1,5 @@
 <footer>
-    <p>&copy; 2025 AD-CarSite</p>
+    <p>&copy; 2025 Car Hub</p>
 </footer>
 </body>
 

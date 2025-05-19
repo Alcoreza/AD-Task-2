@@ -139,6 +139,20 @@ AD-TASK-2/
 │       └── index.php
 ├── utils/
 │   └── Car.util.php
+├── vendor/
+│   ├── composer/
+│   │   ├── autoload_classmap.php
+│   │   ├── autoload_namespaces.php
+│   │   ├── autoload_psr4.php
+│   │   ├── autoload_real.php
+│   │   ├── autoload_static.php
+│   │   ├── ClassLoader.php
+│   │   ├── installed.json
+│   │   ├── installed.php
+│   │   └── InstalledVersions.php
+|   |   └── LICENSE
+│   ├── autoload.php
+|
 ├── .dockerignore
 ├── .gitignore
 ├── bootstrap.php
